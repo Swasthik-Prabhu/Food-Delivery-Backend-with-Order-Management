@@ -21,7 +21,7 @@ Add a new menu item to the restaurant.
   "category": "Main Course"
 }
 
-**Response** :
+
 
 {
   "status": "success",
@@ -33,7 +33,7 @@ Add a new menu item to the restaurant.
   }
 }
 
-2.GET /menu
+### 2.GET /menu
 Get a list of all items
 
 Response :
