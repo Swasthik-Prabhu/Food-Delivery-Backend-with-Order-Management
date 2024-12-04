@@ -20,36 +20,36 @@ Add a new menu item to the restaurant.
   "price": 12.5,
   "category": "Main Course"
 }
-Response:
+
+Response :
 
 
-{
-  "status": "success",
-  "data": {
-    "id": 1,
-    "name": "Paneer Butter Masala",
-    "price": 12.5,
-    "category": "Main Course"
-  }
-}
-
-
-2. GET /menu
-Get a list of all menu items.
-
-Response:
-
-{
-  "status": "success",
-  "data": [
-    {
+  {
+    "status": "success",
+    "data": {
       "id": 1,
       "name": "Paneer Butter Masala",
       "price": 12.5,
       "category": "Main Course"
     }
-  ]
-}
+  }
+
+2. GET / menu
+Get a list of all the items
+
+Response:
+
+  {
+    "status": "success",
+    "data": [
+      {
+        "id": 1,
+        "name": "Paneer Butter Masala",
+        "price": 12.5,
+        "category": "Main Course"
+      }
+    ]
+  }
 3. POST /orders
 Place a new order with selected menu items.
 
