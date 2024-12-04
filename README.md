@@ -162,6 +162,7 @@ Preparing → Out for Delivery → Delivered
 This update is handled by the node-cron module running on the server. Each order status will transition every minute based on its current status.
 
 # Technologies Used
+
 Node.js: JavaScript runtime for server-side code.
 Express.js: Web framework to handle API requests.
 Body-Parser: Middleware to parse incoming request bodies.
